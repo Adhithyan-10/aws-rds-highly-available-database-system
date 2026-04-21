@@ -6,7 +6,7 @@ Designing a **fault-tolerant, production-ready database architecture** with auto
 
 ## 🌐 System Overview
 
-This project demonstrates how to build a **highly available database system** on AWS using **Amazon RDS Multi-AZ**, integrated securely with an EC2 application.
+This project demonstrates how to build a **highly available database system** on AWS using **Amazon RDS Multi-AZ**, securely integrated with an EC2 application.
 
 It is designed with a **production mindset**, ensuring:
 
@@ -99,15 +99,20 @@ This system ensures:
 
 ## 📂 Project Structure
 
-```
+```bash
 .
 ├── architecture/
 │   ├── ARCH_main.png
 │   └── README.md
 │
 ├── database/
-│   ├── scripts/
+│   ├── create_table.py
+│   ├── show_tables.py
 │   └── README.md
+│
+├── scripts/
+│   ├── create_table.py
+│   └── show_tables.py
 │
 ├── screenshots/
 │   └── README.md
@@ -131,10 +136,10 @@ For detailed explanation of architecture, design decisions, and validation:
 
 ## 🎯 Key Takeaways
 
-* High availability is a **core requirement**, not an option
-* Managed services simplify complex system design
-* Security must be integrated from the beginning
-* Systems should be designed to **handle failure automatically**
+* High availability is a **core requirement**, not optional
+* Managed services simplify complex infrastructure
+* Security must be designed from the beginning
+* Systems should be built to **handle failures automatically**
 
 ---
 
@@ -153,4 +158,12 @@ For detailed explanation of architecture, design decisions, and validation:
 
 ---
 
-⭐ If you found this useful, feel free to explore the repo and connect!
+## 👨‍💻 Author
+
+**Adhithyan Sivaraman T**
+🔗 LinkedIn: https://www.linkedin.com/in/adhithyan-sivaraman-t-399b5b362/
+🔗 GitHub: https://github.com/Adhithyan-10
+
+---
+
+⭐ If you found this project valuable, feel free to connect or explore more!
