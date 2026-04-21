@@ -160,7 +160,8 @@ For detailed explanation of architecture, design decisions, and validation:
 
 ## 👨‍💻 Author
 
-**Adhithyan Sivaraman T**
+**Adhithyan Sivaraman T**  
+
 🔗 LinkedIn: https://www.linkedin.com/in/adhithyan-sivaraman-t-399b5b362/  
 
 🔗 GitHub: https://github.com/Adhithyan-10
